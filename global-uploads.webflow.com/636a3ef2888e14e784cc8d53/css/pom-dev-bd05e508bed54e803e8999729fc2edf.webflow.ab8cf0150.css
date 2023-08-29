@@ -276,7 +276,7 @@ html.w-mod-touch * {
   color: #fff;
   line-height: inherit;
   cursor: pointer;
-  background-color: #00B9E9;
+  background-color: #103dc4;
   border: 0;
   border-radius: 0;
   padding: 9px 15px;
@@ -546,7 +546,7 @@ label {
 }
 
 .w-input:focus, .w-select:focus {
-  border-color: #00B9E9;
+  border-color: #103dc4;
   outline: 0;
 }
 
@@ -2156,7 +2156,7 @@ p {
 }
 
 a {
-  color: #00B9E9;
+  color: #103dc4;
   text-decoration: none;
 }
 
@@ -2266,7 +2266,7 @@ li {
 
 .style-guide-element {
   color: #fff;
-  background-color: #00B9E9;
+  background-color: #103dc4;
   margin-top: 3px;
   margin-bottom: 3px;
   padding: 3px 5px;
@@ -2277,7 +2277,7 @@ li {
 
 .style-guide-class {
   color: #fff;
-  background-color: #00B9E9;
+  background-color: #103dc4;
   border-radius: 3px;
   padding: 3px 8px;
   font-size: 14px;
@@ -2286,7 +2286,7 @@ li {
 }
 
 .style-guide-class.tag-class {
-  background-color: #00B9E9;
+  background-color: #103dc4;
 }
 
 .style-guide-edit-wrap {
@@ -2322,7 +2322,7 @@ li {
 }
 
 .style-guide-color-wrap.primary-color-background {
-  background-color: #00B9E9;
+  background-color: #103dc4;
 }
 
 .style-guide-color-wrap.secondary-color-background {
@@ -2342,14 +2342,14 @@ li {
 }
 
 .button {
-  background-color: #00B9E9;
+  background-color: #103dc4;
   margin-top: 0;
 }
 
 .button.ghost-button {
-  color: #00B9E9;
+  color: #103dc4;
   background-color: rgba(0, 0, 0, 0);
-  border: 2px solid #00B9E9;
+  border: 2px solid #103dc4;
 }
 
 .button.ghost-button.invese-ghost {
@@ -2358,7 +2358,7 @@ li {
 }
 
 .button.inverse-button {
-  color: #00B9E9;
+  color: #103dc4;
   background-color: #fff;
 }
 
@@ -2503,7 +2503,7 @@ li {
   background: -moz-linear-gradient(0deg, rgba(17,42,115,1) 0%, rgba(36,165,226,1) 100%);
   background: -webkit-linear-gradient(0deg, rgba(17,42,115,1) 0%, rgba(36,165,226,1) 100%);
   background: linear-gradient(0deg, rgba(17,42,115,1) 0%, rgba(36,165,226,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#112a73",endColorstr="#24a5e2",GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#103dc4",endColorstr="#24a5e2",GradientType=1);
   font-family: Gordita, sans-serif;
   overflow: visible;
   height: 100%;
@@ -2604,7 +2604,7 @@ li {
 
 .link-block.link-hero:hover {
   background-color: rgba(33, 33, 73, .8);
-  border-color: #00B9E9;
+  border-color: #103dc4;
   transform: scale(1.02);
   box-shadow: 0 24px 48px rgba(100, 94, 255, .25);
 }
@@ -2621,7 +2621,7 @@ li {
 
 .link-block.link-hero-xl:hover {
   background-color: rgba(33, 33, 73, .8);
-  border-color: #00B9E9;
+  border-color: #103dc4;
   transform: scale(1.02);
   box-shadow: 0 24px 48px rgba(100, 94, 255, .25);
 }
@@ -2682,13 +2682,13 @@ li {
 }
 
 .heading-3 {
-  color: #00B9E9;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
 .blue-block {
   grid-row-gap: 24px;
-  background-image: radial-gradient(circle, #00B9E9, #02512e);
+  background-image: radial-gradient(circle, #103dc4, #076e97);
   border-radius: 32px;
   flex-direction: column;
   margin-right: 0;
@@ -2700,7 +2700,7 @@ li {
 
 .blue-block-heading {
   z-index: 1;
-  color: #000000;
+  color: #ffffff;
   object-fit: fill;
   position: relative;
 }
@@ -2742,7 +2742,7 @@ li {
 }
 
 .div-block-5 {
-  background-image: radial-gradient(circle, #142c19, #21681a);
+  background-image: radial-gradient(circle, #1d76b2, #003c79);
   border-radius: 32px;
   padding: 64px 80px 56px;
 }
@@ -2847,13 +2847,13 @@ li {
 }
 
 .pre-heading {
-  color: #7dd781;
+  color: #103dc4;
   text-transform: uppercase;
   font-size: 13px;
 }
 
 .product-box {
-  background-image: linear-gradient(#00B9E9, #00B9E9);
+  background-image: linear-gradient(#103dc4, #103dc4);
   border: 2px solid #090913;
   border-radius: 16px;
   flex: 1;
@@ -2913,9 +2913,9 @@ li {
 }
 
 .stage-name.stage-active {
-  background-color: #00B9E9;
+  background-color: #103dc4;
   border-style: none;
-  border-color: #00B9E9;
+  border-color: #103dc4;
 }
 
 .text-block-6 {
@@ -3038,15 +3038,16 @@ li {
 
 .tweet-card {
   grid-row-gap: 16px;
-  background-image: linear-gradient(#1e1e2f, #1e1e2f);
-  border-radius: 32px;
+  background-image: linear-gradient(#103dc4
+  , #0d57ce);
+  border-radius: 12px;
   flex-direction: column;
   padding: 48px;
   display: flex;
   position: -webkit-sticky;
   position: sticky;
   bottom: 64px;
-  box-shadow: 0 1px 40px 7px #000;
+  box-shadow: 0 1px 10px 1px #14141493;
 }
 
 .tweet-card.first-tweet {
@@ -3472,7 +3473,7 @@ li {
   opacity: .66;
   filter: blur(20px);
   -webkit-text-fill-color: inherit;
-background-color: blue;
+background-color: #035aa6;
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3584,7 +3585,7 @@ background-color: blue;
 .big1 {
   grid-column-gap: 8px;
   color: #fff;
-  background-color: #00B9E9;
+  background-color: #103dc4;
   border-radius: 4px;
   justify-content: space-around;
   align-items: center;
@@ -3805,7 +3806,7 @@ background-color: blue;
 .cta-header {
   grid-column-gap: 8px;
   color: #fff;
-  background-color: #00B9E9;
+  background-color: #103dc4;
   border-radius: 4px;
   justify-content: space-around;
   align-items: center;
@@ -3867,7 +3868,7 @@ background-color: blue;
 }
 
 .heading-7.golden-text {
-  color: #00B9E9;
+  color: #103dc4;
   text-shadow: 1px 1px 40px rgba(81, 255, 194, .25);
 }
 
@@ -4148,7 +4149,7 @@ background-color: blue;
 
 .countdown-block {
   max-width: 360px;
-  background-color: #00B9E9;
+  background-color: #103dc4;
   border-radius: 12px;
   margin-top: 10px;
   margin-left: auto;
