@@ -4,8 +4,8 @@
   --font-color: #e1e1ff;
   --bg-color: #161625;
   --heading-color: #818cab;
-  --bg-matata-color: linear-gradient(0deg, rgb(4, 4, 4) 0%, rgb(40, 40, 40) 100%);
-  --bg-metete-color:linear-gradient(0deg,  rgb(40, 40, 40) 0%,  rgb(4, 4, 4) 100%);
+  --bg-matata-color: linear-gradient(0deg, rgb(4, 4, 4) 0%, rgb(20, 20, 20) 100%);
+  --bg-metete-color:linear-gradient(0deg,  rgb(20, 20, 20) 0%,  rgb(4, 4, 4) 100%);
     --butoto-color:blue;
 }
 [data-theme=dark] {
