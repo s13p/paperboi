@@ -3166,7 +3166,7 @@ li {
 
 .partner-item {
   grid-row-gap: 8px;
-  background-color: rgba(12, 12, 24, .75);
+  background-color:var(--bg-color);
   border: 1px solid #282833;
   flex-direction: column;
   flex: 1;
