@@ -9,7 +9,7 @@
     --butoto-color:blue;
 }
 [data-theme=dark] {
-  --primary-color: #302AE6;
+  --primary-color: #112a73;
   --secondary-color: #536390;
   --font-color: #000000;
   --bg-color:  #84c8ff;
@@ -3058,8 +3058,7 @@ li {
 
 .tweet-card {
   grid-row-gap: 16px;
-  background-image: linear-gradient( var(--bg-color)
-  , #0d57ce);
+  background-color: var(--bg-color);
   border-radius: 12px;
   flex-direction: column;
   padding: 48px;
