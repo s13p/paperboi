@@ -27,6 +27,7 @@
 
 </head>
 <style>
+
   .btnph {
     display: flex;
   }
@@ -60,7 +61,9 @@
 
       </div>
       <div class="div-block-39">
-        <div class="div-block-37"><a href="#" class="header-link w-inline-block">
+        <div class="div-block-37">
+
+          <a href="#" class="header-link w-inline-block">
           
           </a><a href="#security" class="header-link w-inline-block">
             <div>FEATURES</div>
@@ -76,7 +79,14 @@
           href="https://www.dextools.io/app/en/ether/pair-explorer/"
           target="_blank" class="cta-header w-inline-block">
           <div class="text-block-15">CHART</div>
-        </a>
+        </a> 
+        <div class="theme-switch-wrapper">
+          <label class="theme-switch" for="checkbox">
+       <input type="checkbox" id="checkbox" />
+       <div class="slider round"></div>
+     </label>
+       <em></em>
+     </div>         
       </div>
     </div>
   </div>
@@ -151,20 +161,15 @@
   </div>
   <style>
     .papa {
-      background: rgb(17,42,115);
-  background: -moz-linear-gradient(0deg, rgba(17,42,115,1) 0%, rgba(36,165,226,1) 100%);
-  background: -webkit-linear-gradient(0deg, rgba(17,42,115,1) 0%, rgba(36,165,226,1) 100%);
-  background: linear-gradient(0deg, rgba(17,42,115,1) 0%, rgba(36,165,226,1) 100%);
+
+  background:  var(--bg-matata-color);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#112a73",endColorstr="#24a5e2",GradientType=1);
   font-family: Gordita, sans-serif;
   overflow: visible;
   height: 100%;
         }
         .pepe {
-          background: rgb(17,42,115);
-background: -moz-linear-gradient(180deg, rgba(17,42,115,1) 0%, rgba(36,165,226,1) 100%);
-background: -webkit-linear-gradient(180deg, rgba(17,42,115,1) 0%, rgba(36,165,226,1) 100%);
-background: linear-gradient(180deg, rgba(17,42,115,1) 0%, rgba(36,165,226,1) 100%);
+          background:  var(--bg-metete-color);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#112a73",endColorstr="#24a5e2",GradientType=1);
 height: 100%;
         }
@@ -195,7 +200,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#18a7de",endCo
         }
   </style>
   <div id="PAPER SWAP " class="wf-section">
-    <div class="section-block pipi  PAPER SWAP">
+    <div class="section-block pepe  PAPER SWAP">
       <div class="container">
         <div class="headline-block">
           <h4 class="pre-heading"  data-aos="fade-up" data-aos-delay="1000">PAPER SWAP</h4>
@@ -255,7 +260,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#18a7de",endCo
     </div>
   </div>
   <div id="security" class="wf-section">
-    <div class="section-block pepe">
+    <div class="section-block papa">
       <div class="container security-sectiion">
         <div class="div-block-7" data-aos="fade-left" data-aos-delay="0" data-aos-duration="500">
           <div class="headline-left">
@@ -338,7 +343,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#18a7de",endCo
   </div>
 
   <div id="partners" class="wf-section">
-    <div class="section-block papa ">
+    <div class="section-block pepe ">
       <div class="container">
         <div class="div-block-7">
           <div data-aos="fade-right" data-aos-delay="0" data-aos-duration="500" class="headline-left">
@@ -360,7 +365,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#18a7de",endCo
 
 
   <div id="community" class="wf-section">
-    <div class="section-block popo">
+    <div class="section-block papa">
       <div class="container">
         <div class="testimonials-block">
           <div data-aos="fade-right" data-aos-delay="0" data-aos-duration="500" class="headline-left community-headline">
@@ -485,10 +490,36 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#18a7de",endCo
     }
 
   </script>
+
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
+    <script>
+      const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+      const currentTheme = localStorage.getItem('theme');
+
+      if (currentTheme) {
+          document.documentElement.setAttribute('data-theme', currentTheme);
+        
+          if (currentTheme === 'dark') {
+              toggleSwitch.checked = true;
+          }
+      }
+
+      function switchTheme(e) {
+          if (e.target.checked) {
+              document.documentElement.setAttribute('data-theme', 'dark');
+              localStorage.setItem('theme', 'dark');
+          }
+          else {        document.documentElement.setAttribute('data-theme', 'light');
+                localStorage.setItem('theme', 'light');
+          }    
+      }
+
+      toggleSwitch.addEventListener('change', switchTheme, false);
+
+      </script>
 </body>
 
 </html>
