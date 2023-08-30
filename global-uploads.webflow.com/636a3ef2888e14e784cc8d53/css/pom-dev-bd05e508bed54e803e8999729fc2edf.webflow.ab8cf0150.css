@@ -2835,7 +2835,7 @@ li {
 }
 
 .security-box {
-  background-image: radial-gradient(circle at 0 0, rgba(4, 73, 61, .5), rgba(1, 24, 20, .5));
+  background-color: var(--bg-color);
   border-radius: 32px;
   flex: 1;
   padding: 32px 28px;
@@ -3512,7 +3512,7 @@ background-color:  var(--bg-matata-color);
 }
 
 .div-block-31 {
-  background-image: url("https://global-uploads.webflow.com/636a3ef2888e14e784cc8d53/636a3ef2888e145f21cc8da7_gradient-green.png");
+  background-image: url("https://global-uploads.webflow.com/636a3ef2888e14e784cc8d53/636a3ef2888e14ecf1cc8daa_gradient-mix.png");
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3526,7 +3526,7 @@ background-color:  var(--bg-matata-color);
   min-width: 499px;
   opacity: .88;
   filter: blur(20px);
-  background-image: url("https://global-uploads.webflow.com/636a3ef2888e14e784cc8d53/636a3ef2888e145f21cc8da7_gradient-green.png");
+  background-image: url("https://global-uploads.webflow.com/636a3ef2888e14e784cc8d53/636a3ef2888e14ecf1cc8daa_gradient-mix.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
