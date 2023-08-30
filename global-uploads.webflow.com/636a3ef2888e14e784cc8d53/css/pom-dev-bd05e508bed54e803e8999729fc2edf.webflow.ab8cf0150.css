@@ -7,6 +7,7 @@
   --bg-matata-color: linear-gradient(0deg, rgb(4, 4, 4) 0%, rgb(20, 20, 20) 100%);
   --bg-metete-color:linear-gradient(0deg,  rgb(20, 20, 20) 0%,  rgb(4, 4, 4) 100%);
     --butoto-color:#24a5e2;
+    --navkunta-color:black;
 }
 [data-theme=dark] {
   --primary-color: #112a73;
@@ -17,6 +18,7 @@
   --bg-matata-color: linear-gradient(0deg, rgb(69, 89, 221)  0%, rgba(36,165,226,1) 100%);
   --bg-metete-color:linear-gradient(0deg, rgba(24,167,222,1) 0%, rgb(69, 89, 221) 100%);
   --butoto-color:rgb(255, 255, 255);
+  --navkunta-color:rgb(19, 122, 207);
 }
 html {
   -ms-text-size-adjust: 100%;
@@ -3781,7 +3783,7 @@ background-color:  var(--bg-matata-color);
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
   -webkit-text-fill-color: inherit;
-  background-color:  var(--bg-color);
+  background-color:  var(--navkunta-color);
   background-clip: border-box;
   border-bottom: 1px solid rgba(255, 255, 255, .1);
   padding: 16px 20px;
