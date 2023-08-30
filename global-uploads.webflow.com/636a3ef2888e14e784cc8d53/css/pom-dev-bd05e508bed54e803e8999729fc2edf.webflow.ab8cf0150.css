@@ -19,6 +19,7 @@
   --bg-metete-color:linear-gradient(0deg, rgba(24,167,222,1) 0%, rgb(69, 89, 221) 100%);
   --butoto-color:rgb(255, 255, 255);
   --navkunta-color:rgb(19, 122, 207);
+  -pabebe-color
 }
 html {
   -ms-text-size-adjust: 100%;
@@ -3890,7 +3891,7 @@ background-color:  var(--bg-matata-color);
 }
 
 .heading-7.golden-text {
-  color: #1692ff;
+  color: var(--font-color);
   text-shadow: 1px 1px 40px rgba(81, 255, 194, .25);
 }
 
@@ -5850,7 +5851,7 @@ background-color:  var(--bg-matata-color);
 }
 
 .slider {
-  background-color: #ccc;
+  background-color: #6f6f6f;
   bottom: 0;
   cursor: pointer;
   left: 0;
@@ -5872,7 +5873,7 @@ background-color:  var(--bg-matata-color);
 }
 
 input:checked + .slider {
-  background-color: #66bb6a;
+  background-color: #c8c8ff;
 }
 
 input:checked + .slider:before {
