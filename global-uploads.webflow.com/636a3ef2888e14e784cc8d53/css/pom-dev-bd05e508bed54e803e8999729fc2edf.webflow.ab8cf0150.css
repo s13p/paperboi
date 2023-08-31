@@ -2842,6 +2842,7 @@ li {
   border-radius: 32px;
   flex: 1;
   padding: 32px 28px;
+  margin: 0 10px;
 }
 
 .paragraph {
