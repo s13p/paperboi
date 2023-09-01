@@ -3765,7 +3765,9 @@ background-color:  var(--bg-matata-color);
 
 .text-block-15 {
   font-size: 14px;
-  line-height: 16px;
+  line-height: 29px;
+  width: fit-content;
+  height: 30px;
 }
 
 .link-logo {
@@ -3802,7 +3804,7 @@ background-color:  var(--bg-matata-color);
   grid-row-gap: 64px;
   flex-direction: row;
   flex: 1;
-  justify-content: space-evenly;
+  justify-content:space-evenly;
   align-items: center;
 
   display: flex;
@@ -3982,7 +3984,7 @@ background-color:  var(--bg-matata-color);
 .div-block-39 {
   grid-column-gap: 12px;
   display: flex;
-  width: 70vw;
+
   justify-content: space-evenly;
 }
 
